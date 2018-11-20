@@ -37,10 +37,6 @@ You can either use a UNIX-Like environment like MinGW / Cygwin (Based upon commu
 
 Plus, even if you managed to get things working, there is a chance that the LLVM Frontend Clang won't accept your code (Google ``MSVC nonstandard behavior``), so if you are using some non-standard compatible code, you might as well fall back to alternative solutions on Windows
 
-
-# Known Issues
-- Running AntiClassDump On A File Without ObjC Class will crash the executable.
-
 # Extra Features in Commercial Version:
 - GlobalVariable Reference Obfuscation
 - Target Jump Address in IndirectBranch Obfuscation
