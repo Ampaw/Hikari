@@ -7,6 +7,45 @@ Hikari(Light in Japanese, name stolen from the Nintendo Switch game [Xenoblade C
 # License
 Hikari is relicensed from Obfuscator-LLVM and LLVM upstream's permissive NCSA license to GNU Affero General Public License Version 3. tl;dr: The obfuscated LLVM IR and/or obfuscated binary is not restricted in anyway, however **any other project containing code from Hikari needs to be open source and licensed under AGPLV3 as well, even for web-based obfuscation services**.  
 
+# Prerequisites
+Prerequisites are exactly the same as LLVM Upstream.
+You need fairly new version of the following packages to compile LLVM.
+- SWIG
+- Python
+- CMake
+- GCC/Clang
+- zlib
+
+```
+Additionally, your compilation host is expected to have the usual plethora of Unix utilities. Specifically:
+
+ar — archive library builder
+bzip2 — bzip2 command for distribution generation
+bunzip2 — bunzip2 command for distribution checking
+chmod — change permissions on a file
+cat — output concatenation utility
+cp — copy files
+date — print the current date/time
+echo — print to standard output
+egrep — extended regular expression search utility
+find — find files/dirs in a file system
+grep — regular expression search utility
+gzip — gzip command for distribution generation
+gunzip — gunzip command for distribution checking
+install — install directories/files
+mkdir — create a directory
+mv — move (rename) files
+ranlib — symbol table builder for archive libraries
+rm — remove (delete) files and directories
+sed — stream editor for transforming output
+sh — Bourne shell for make build scripts
+tar — tape archive for distribution generation
+test — test things in file system
+unzip — unzip command for distribution checking
+zip — zip command for distribution generation
+```
+
+
 # macOS Quick Install
 This script assumes current working directory is not the user's home directory(aka ``~/``). ``cd`` to some where else if this is the case.  This script also assumes you have ``cmake`` and ``ninja`` installed, if not, use [Homebrew](https://brew.sh) and similar package managers to install them    
 
